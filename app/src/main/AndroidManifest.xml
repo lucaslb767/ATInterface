@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.infnet.ATInterface">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="br.edu.infnet.ATInterface.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.edu.infnet.ATInterface.Formacao"></activity>
+        <activity android:name="br.edu.infnet.ATInterface.InformacoesPessoais"></activity>
+        <activity android:name="br.edu.infnet.ATInterface.ExpPro"></activity>
+        <activity android:name="br.edu.infnet.ATInterface.Cursos"></activity>
+        <activity android:name="br.edu.infnet.ATInterface.Publicacoes"></activity>
+    </application>
+
+</manifest>

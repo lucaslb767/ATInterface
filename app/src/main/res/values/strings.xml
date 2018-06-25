@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Informações Profissionais</string>
+    <string name="drawer_open">Gaveta de navegação aberta</string>
+    <string name="drawer_close">Gaveta de navegação fechada</string>
+</resources>
